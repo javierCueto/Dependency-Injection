@@ -119,6 +119,7 @@
 		3BC9CD4928CD59A90077D8AC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				3BC9CD5E28CE31B90077D8AC /* List */,
 				3BC9CD4C28CD5AD40077D8AC /* Home */,
 			);
 			path = Modules;
@@ -174,6 +175,37 @@
 				3BC9CD5C28CE308B0077D8AC /* Endpoint.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		3BC9CD5E28CE31B90077D8AC /* List */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9CD6128CE31D00077D8AC /* Data */,
+				3BC9CD6028CE31CB0077D8AC /* Domain */,
+				3BC9CD5F28CE31C40077D8AC /* Presentation */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		3BC9CD5F28CE31C40077D8AC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3BC9CD6028CE31CB0077D8AC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		3BC9CD6128CE31D00077D8AC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
