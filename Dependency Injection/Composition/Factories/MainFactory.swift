@@ -12,7 +12,10 @@ protocol MainFactory {
 }
 
 struct MainFactoryImp: MainFactory {
+    
     let navigation: UINavigationController = UINavigationController()
+    let apiClient: ApiClient = ApiClientImp()
+    
     func makeHomeView() -> UIViewController {
         let randomNumber = RandomNumberImp()
         let viewModel = HomeViewModelImp(randomNumber: randomNumber)
@@ -26,18 +29,4 @@ struct MainFactoryImp: MainFactory {
 }
 
 
-protocol ListFactory {
-    func makeListView()
-}
 
-extension MainFactoryImp: ListFactory {
-    func makeListView() {
-        print("no implementation")
-    }
-}
-
-extension MainFactoryImp: HomeViewControllerCoordinator {
-    func didClickContinueButton() {
-        makeListView()
-    }
-}
