@@ -15,6 +15,7 @@ struct MainFactoryImp: MainFactory {
     
     let navigation: UINavigationController = UINavigationController()
     let apiClient: ApiClient = ApiClientImp()
+    let container = DIContainer()
     
     func makeHomeView() -> UIViewController {
         let randomNumber = RandomNumberImp()
