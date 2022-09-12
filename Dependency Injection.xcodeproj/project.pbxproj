@@ -29,6 +29,7 @@
 		3BC9CD7B28CFB3E00077D8AC /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD7A28CFB3E00077D8AC /* SettingsViewModel.swift */; };
 		3BC9CD8028CFB6880077D8AC /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD7F28CFB6880077D8AC /* MyProfileViewController.swift */; };
 		3BC9CD8328CFB71F0077D8AC /* MyProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD8228CFB71F0077D8AC /* MyProfileViewModel.swift */; };
+		3BC9CD8528CFBAF00077D8AC /* MainFactory+Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD8428CFBAF00077D8AC /* MainFactory+Detail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		3BC9CD7A28CFB3E00077D8AC /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		3BC9CD7F28CFB6880077D8AC /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		3BC9CD8228CFB71F0077D8AC /* MyProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewModel.swift; sourceTree = "<group>"; };
+		3BC9CD8428CFBAF00077D8AC /* MainFactory+Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainFactory+Detail.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 			children = (
 				3BC9CD4A28CD59F50077D8AC /* MainFactory.swift */,
 				3BC9CD5728CE302B0077D8AC /* MainFactory+List.swift */,
+				3BC9CD8428CFBAF00077D8AC /* MainFactory+Detail.swift */,
 			);
 			path = Factories;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 				3BC9CD8328CFB71F0077D8AC /* MyProfileViewModel.swift in Sources */,
 				3BC9CD7928CFB3B10077D8AC /* SettingsViewController.swift in Sources */,
 				3BC9CD7B28CFB3E00077D8AC /* SettingsViewModel.swift in Sources */,
+				3BC9CD8528CFBAF00077D8AC /* MainFactory+Detail.swift in Sources */,
 				3BC9CD7428CE98B70077D8AC /* DIContainer.swift in Sources */,
 				3BC9CD7228CE96010077D8AC /* DependencyExamples.swift in Sources */,
 				3BC9CD5228CD653F0077D8AC /* HomeViewModel.swift in Sources */,
