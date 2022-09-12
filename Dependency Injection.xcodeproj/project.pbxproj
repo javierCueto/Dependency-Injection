@@ -25,6 +25,10 @@
 		3BC9CD6F28CE94CA0077D8AC /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD6E28CE94CA0077D8AC /* DetailViewModel.swift */; };
 		3BC9CD7228CE96010077D8AC /* DependencyExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD7128CE96010077D8AC /* DependencyExamples.swift */; };
 		3BC9CD7428CE98B70077D8AC /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD7328CE98B70077D8AC /* DIContainer.swift */; };
+		3BC9CD7928CFB3B10077D8AC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD7828CFB3B10077D8AC /* SettingsViewController.swift */; };
+		3BC9CD7B28CFB3E00077D8AC /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD7A28CFB3E00077D8AC /* SettingsViewModel.swift */; };
+		3BC9CD8028CFB6880077D8AC /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD7F28CFB6880077D8AC /* MyProfileViewController.swift */; };
+		3BC9CD8328CFB71F0077D8AC /* MyProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD8228CFB71F0077D8AC /* MyProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		3BC9CD6E28CE94CA0077D8AC /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		3BC9CD7128CE96010077D8AC /* DependencyExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyExamples.swift; sourceTree = "<group>"; };
 		3BC9CD7328CE98B70077D8AC /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		3BC9CD7828CFB3B10077D8AC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3BC9CD7A28CFB3E00077D8AC /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		3BC9CD7F28CFB6880077D8AC /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		3BC9CD8228CFB71F0077D8AC /* MyProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +142,8 @@
 		3BC9CD4928CD59A90077D8AC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				3BC9CD7C28CFB6600077D8AC /* MyProfile */,
+				3BC9CD7528CFB38C0077D8AC /* Settings */,
 				3BC9CD6828CE94950077D8AC /* Detail */,
 				3BC9CD5E28CE31B90077D8AC /* List */,
 				3BC9CD4C28CD5AD40077D8AC /* Home */,
@@ -282,6 +292,56 @@
 			path = Examples;
 			sourceTree = "<group>";
 		};
+		3BC9CD7528CFB38C0077D8AC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9CD7728CFB39D0077D8AC /* Domain */,
+				3BC9CD7628CFB3970077D8AC /* Presentation */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3BC9CD7628CFB3970077D8AC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9CD7828CFB3B10077D8AC /* SettingsViewController.swift */,
+				3BC9CD7A28CFB3E00077D8AC /* SettingsViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3BC9CD7728CFB39D0077D8AC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		3BC9CD7C28CFB6600077D8AC /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9CD7E28CFB6750077D8AC /* Domain */,
+				3BC9CD7D28CFB66D0077D8AC /* Presentation */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		3BC9CD7D28CFB66D0077D8AC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9CD7F28CFB6880077D8AC /* MyProfileViewController.swift */,
+				3BC9CD8228CFB71F0077D8AC /* MyProfileViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3BC9CD7E28CFB6750077D8AC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -389,9 +449,13 @@
 				3BC9CD1928CCD83B0077D8AC /* AppDelegate.swift in Sources */,
 				3BC9CD5B28CE305F0077D8AC /* ApiClient.swift in Sources */,
 				3BC9CD5828CE302B0077D8AC /* MainFactory+List.swift in Sources */,
+				3BC9CD8328CFB71F0077D8AC /* MyProfileViewModel.swift in Sources */,
+				3BC9CD7928CFB3B10077D8AC /* SettingsViewController.swift in Sources */,
+				3BC9CD7B28CFB3E00077D8AC /* SettingsViewModel.swift in Sources */,
 				3BC9CD7428CE98B70077D8AC /* DIContainer.swift in Sources */,
 				3BC9CD7228CE96010077D8AC /* DependencyExamples.swift in Sources */,
 				3BC9CD5228CD653F0077D8AC /* HomeViewModel.swift in Sources */,
+				3BC9CD8028CFB6880077D8AC /* MyProfileViewController.swift in Sources */,
 				3BC9CD1B28CCD83B0077D8AC /* SceneDelegate.swift in Sources */,
 				3BC9CD6F28CE94CA0077D8AC /* DetailViewModel.swift in Sources */,
 				3BC9CD6528CE8B960077D8AC /* ListViewController.swift in Sources */,
