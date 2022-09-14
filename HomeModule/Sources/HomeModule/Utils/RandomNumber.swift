@@ -5,13 +5,15 @@
 //  Created by Javier Cueto on 10/09/22.
 //
 
-protocol RandomNumber {
+public protocol RandomNumber {
     func random(initNumber: Int, endNumber: Int) -> Int
 }
 
-struct RandomNumberImp: RandomNumber {
+public struct RandomNumberImp: RandomNumber {
     
-    func random(initNumber: Int, endNumber: Int) -> Int {
+    public init() {}
+    
+    public func random(initNumber: Int, endNumber: Int) -> Int {
         return Int.random(in: initNumber...endNumber)
     }
 }

@@ -7,18 +7,18 @@
 
 import UIKit
 
-protocol HomeViewControllerCoordinator {
+public protocol HomeViewControllerCoordinator {
     func didClickContinueButton()
 }
 
-final class HomeViewController: UIViewController {
+public final class HomeViewController: UIViewController {
     
     private let viewModel: HomeViewModel
     var coordinator: HomeViewControllerCoordinator?
-    var number: Int?
+    public var number: Int?
     var controllerName = "Home"
     
-    init(viewModel: HomeViewModel) {
+    public init(viewModel: HomeViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
@@ -34,10 +34,11 @@ final class HomeViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         viewModel.viewDidLoad()
         view.backgroundColor = .darkGray
+        title = controllerName
     }
     
 

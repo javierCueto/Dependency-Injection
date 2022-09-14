@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Pack
+import HomeModule
 
 protocol MainFactory {
     func makeHomeView() -> UIViewController
@@ -15,12 +17,14 @@ struct MainFactoryImp: MainFactory {
     
     let navigation: UINavigationController = UINavigationController()
     let apiClient: ApiClient = ApiClientImp()
+    let apiFinal = ApiFinalImp()
     let container = DIContainer()
     
     func makeHomeView() -> UIViewController {
+        let loadDataRepository = LoadDataRepositoryImp(apiFinal: apiFinal)
+        let loadDataUseCase = LoadDataUseCaseImp(loadDataRepository: loadDataRepository)
         let randomNumber = RandomNumberImp()
-        let viewModel = HomeViewModelImp(randomNumber: randomNumber)
-        
+        let viewModel = HomeViewModelImp(randomNumber: randomNumber, loadDataUseCase: loadDataUseCase)
         let controller = HomeViewController(viewModel: viewModel)
         controller.number = 117
         

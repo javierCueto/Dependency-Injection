@@ -9,13 +9,10 @@
 /* Begin PBXBuildFile section */
 		3BC9CD1928CCD83B0077D8AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD1828CCD83B0077D8AC /* AppDelegate.swift */; };
 		3BC9CD1B28CCD83B0077D8AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD1A28CCD83B0077D8AC /* SceneDelegate.swift */; };
-		3BC9CD1D28CCD83B0077D8AC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD1C28CCD83B0077D8AC /* HomeViewController.swift */; };
 		3BC9CD2228CCD83D0077D8AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC9CD2128CCD83D0077D8AC /* Assets.xcassets */; };
 		3BC9CD2528CCD83D0077D8AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC9CD2328CCD83D0077D8AC /* LaunchScreen.storyboard */; };
 		3BC9CD3028CCD83D0077D8AC /* Dependency_InjectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD2F28CCD83D0077D8AC /* Dependency_InjectionTests.swift */; };
 		3BC9CD4B28CD59F50077D8AC /* MainFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD4A28CD59F50077D8AC /* MainFactory.swift */; };
-		3BC9CD5228CD653F0077D8AC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD5128CD653F0077D8AC /* HomeViewModel.swift */; };
-		3BC9CD5528CD742B0077D8AC /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD5428CD742B0077D8AC /* RandomNumber.swift */; };
 		3BC9CD5828CE302B0077D8AC /* MainFactory+List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD5728CE302B0077D8AC /* MainFactory+List.swift */; };
 		3BC9CD5B28CE305F0077D8AC /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD5A28CE305F0077D8AC /* ApiClient.swift */; };
 		3BC9CD5D28CE308B0077D8AC /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD5C28CE308B0077D8AC /* Endpoint.swift */; };
@@ -30,6 +27,9 @@
 		3BC9CD8028CFB6880077D8AC /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD7F28CFB6880077D8AC /* MyProfileViewController.swift */; };
 		3BC9CD8328CFB71F0077D8AC /* MyProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD8228CFB71F0077D8AC /* MyProfileViewModel.swift */; };
 		3BC9CD8528CFBAF00077D8AC /* MainFactory+Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD8428CFBAF00077D8AC /* MainFactory+Detail.swift */; };
+		3BC9CD8E28D158B60077D8AC /* LoadDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9CD8D28D158B60077D8AC /* LoadDataRepository.swift */; };
+		3BC9CD9528D15E800077D8AC /* Pack in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC9CD9428D15E800077D8AC /* Pack */; };
+		3BC9CD9B28D162960077D8AC /* HomeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC9CD9A28D162960077D8AC /* HomeModule */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,15 +46,12 @@
 		3BC9CD1528CCD83B0077D8AC /* Dependency Injection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dependency Injection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC9CD1828CCD83B0077D8AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BC9CD1A28CCD83B0077D8AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3BC9CD1C28CCD83B0077D8AC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3BC9CD2128CCD83D0077D8AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BC9CD2428CCD83D0077D8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BC9CD2628CCD83D0077D8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BC9CD2B28CCD83D0077D8AC /* Dependency InjectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dependency InjectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC9CD2F28CCD83D0077D8AC /* Dependency_InjectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency_InjectionTests.swift; sourceTree = "<group>"; };
 		3BC9CD4A28CD59F50077D8AC /* MainFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFactory.swift; sourceTree = "<group>"; };
-		3BC9CD5128CD653F0077D8AC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		3BC9CD5428CD742B0077D8AC /* RandomNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumber.swift; sourceTree = "<group>"; };
 		3BC9CD5728CE302B0077D8AC /* MainFactory+List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainFactory+List.swift"; sourceTree = "<group>"; };
 		3BC9CD5A28CE305F0077D8AC /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		3BC9CD5C28CE308B0077D8AC /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
@@ -69,6 +66,9 @@
 		3BC9CD7F28CFB6880077D8AC /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		3BC9CD8228CFB71F0077D8AC /* MyProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewModel.swift; sourceTree = "<group>"; };
 		3BC9CD8428CFBAF00077D8AC /* MainFactory+Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainFactory+Detail.swift"; sourceTree = "<group>"; };
+		3BC9CD8D28D158B60077D8AC /* LoadDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataRepository.swift; sourceTree = "<group>"; };
+		3BC9CD9328D15E6C0077D8AC /* Pack */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Pack; sourceTree = "<group>"; };
+		3BC9CD9728D161890077D8AC /* HomeModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HomeModule; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC9CD9528D15E800077D8AC /* Pack in Frameworks */,
+				3BC9CD9B28D162960077D8AC /* HomeModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,9 +94,11 @@
 		3BC9CD0C28CCD83B0077D8AC = {
 			isa = PBXGroup;
 			children = (
+				3BC9CD9228D15E6C0077D8AC /* Packages */,
 				3BC9CD1728CCD83B0077D8AC /* Dependency Injection */,
 				3BC9CD2E28CCD83D0077D8AC /* Dependency InjectionTests */,
 				3BC9CD1628CCD83B0077D8AC /* Products */,
+				3BC9CD8728D156310077D8AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +136,7 @@
 		3BC9CD4828CD59970077D8AC /* Composition */ = {
 			isa = PBXGroup;
 			children = (
+				3BC9CD9628D161220077D8AC /* RepositoriesImp */,
 				3BC9CD6328CE32160077D8AC /* Coordinators */,
 				3BC9CD6228CE320F0077D8AC /* Containers */,
 				3BC9CD5628CE2FE70077D8AC /* Factories */,
@@ -148,43 +153,8 @@
 				3BC9CD7528CFB38C0077D8AC /* Settings */,
 				3BC9CD6828CE94950077D8AC /* Detail */,
 				3BC9CD5E28CE31B90077D8AC /* List */,
-				3BC9CD4C28CD5AD40077D8AC /* Home */,
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		3BC9CD4C28CD5AD40077D8AC /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				3BC9CD5328CD741D0077D8AC /* Utils */,
-				3BC9CD4E28CD5CEF0077D8AC /* Domain */,
-				3BC9CD4D28CD5CE90077D8AC /* Presentation */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		3BC9CD4D28CD5CE90077D8AC /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				3BC9CD1C28CCD83B0077D8AC /* HomeViewController.swift */,
-				3BC9CD5128CD653F0077D8AC /* HomeViewModel.swift */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		3BC9CD4E28CD5CEF0077D8AC /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		3BC9CD5328CD741D0077D8AC /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				3BC9CD5428CD742B0077D8AC /* RandomNumber.swift */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		3BC9CD5628CE2FE70077D8AC /* Factories */ = {
@@ -345,6 +315,30 @@
 			path = Domain;
 			sourceTree = "<group>";
 		};
+		3BC9CD8728D156310077D8AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BC9CD9228D15E6C0077D8AC /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9CD9328D15E6C0077D8AC /* Pack */,
+				3BC9CD9728D161890077D8AC /* HomeModule */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		3BC9CD9628D161220077D8AC /* RepositoriesImp */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9CD8D28D158B60077D8AC /* LoadDataRepository.swift */,
+			);
+			path = RepositoriesImp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -361,6 +355,10 @@
 			dependencies = (
 			);
 			name = "Dependency Injection";
+			packageProductDependencies = (
+				3BC9CD9428D15E800077D8AC /* Pack */,
+				3BC9CD9A28D162960077D8AC /* HomeModule */,
+			);
 			productName = "Dependency Injection";
 			productReference = 3BC9CD1528CCD83B0077D8AC /* Dependency Injection.app */;
 			productType = "com.apple.product-type.application";
@@ -445,8 +443,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BC9CD1D28CCD83B0077D8AC /* HomeViewController.swift in Sources */,
 				3BC9CD5D28CE308B0077D8AC /* Endpoint.swift in Sources */,
+				3BC9CD8E28D158B60077D8AC /* LoadDataRepository.swift in Sources */,
 				3BC9CD4B28CD59F50077D8AC /* MainFactory.swift in Sources */,
 				3BC9CD6D28CE94BA0077D8AC /* DetailViewController.swift in Sources */,
 				3BC9CD1928CCD83B0077D8AC /* AppDelegate.swift in Sources */,
@@ -458,12 +456,10 @@
 				3BC9CD8528CFBAF00077D8AC /* MainFactory+Detail.swift in Sources */,
 				3BC9CD7428CE98B70077D8AC /* DIContainer.swift in Sources */,
 				3BC9CD7228CE96010077D8AC /* DependencyExamples.swift in Sources */,
-				3BC9CD5228CD653F0077D8AC /* HomeViewModel.swift in Sources */,
 				3BC9CD8028CFB6880077D8AC /* MyProfileViewController.swift in Sources */,
 				3BC9CD1B28CCD83B0077D8AC /* SceneDelegate.swift in Sources */,
 				3BC9CD6F28CE94CA0077D8AC /* DetailViewModel.swift in Sources */,
 				3BC9CD6528CE8B960077D8AC /* ListViewController.swift in Sources */,
-				3BC9CD5528CD742B0077D8AC /* RandomNumber.swift in Sources */,
 				3BC9CD6728CE8BCF0077D8AC /* ListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -737,6 +733,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3BC9CD9428D15E800077D8AC /* Pack */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Pack;
+		};
+		3BC9CD9A28D162960077D8AC /* HomeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HomeModule;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3BC9CD0D28CCD83B0077D8AC /* Project object */;
 }
